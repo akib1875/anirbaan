@@ -4,30 +4,35 @@
     box-sizing: border-box;
 }
 
+
+
 .background {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     position: relative;
+    background-attachment: fixed;
+    /* Add this line to fix the background */
 }
 
 .background::before {
     content: '';
-    background-image: url(images/background.png);
+    background-image: url(images/bglong.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: .9;
+    /* opacity: .9; */
 }
 
 .main-container {
     position: relative;
     margin-top: 60px;
+
 }
 
 /* -------------------------------------------------------ashol css------------------- */
@@ -124,13 +129,38 @@ p {
 
 }
 
-
-
 .part {
     margin-top: 20px;
 }
 
-/* boot */
+a:hover {
+    text-decoration: none;
+}
+
+.glow-hover:hover {
+    transform: scale(1.05);
+    transition: transform 0.55s ease-in;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* AI */
 
 
 
@@ -173,4 +203,36 @@ p {
 
 .image-container:hover .overlay {
     opacity: 1;
+}
+
+/* Footer styles */
+footer {
+    background-color: #000;
+    /* Black background color */
+    color: #fff;
+    /* Text color */
+    padding: 20px;
+    /* Padding around content */
+    display: flex;
+    /* Use flexbox to position items */
+    justify-content: space-between;
+    /* Space between items */
+    align-items: center;
+    /* Center items vertically */
+}
+
+/* Style for social icons */
+.social-icons {
+    font-size: 24px;
+    /* Adjust the icon size */
+}
+
+/* Style for individual social icon links */
+.social-icon-link {
+    color: #fff;
+    /* Icon color */
+    text-decoration: none;
+    /* Remove underline */
+    margin-right: 20px;
+    /* Spacing between social icons */
 }

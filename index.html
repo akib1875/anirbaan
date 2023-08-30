@@ -18,6 +18,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 
 
 </head>
@@ -41,6 +43,10 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#"><span class="white">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><span class="white">About
+                                    Us</span></a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -96,10 +102,21 @@
     <!-- ------------------------------------------------------------------------------------------ -->
     <main class="background">
         <div class="main-container container-sm">
-
-
-
-            <div class="embed-responsive embed-responsive-16by9">
+            <div>
+                <model-viewer class="dviewer" src="assets/Rev Darg.glb" camera-controls auto-rotate ar></model-viewer>
+            </div>
+            <br>
+            <br>
+            <div class="halkabg">
+                <a href="#video">
+                    <h1 class="glow-def glow-hover"><i class="fa-solid fa-angles-down"></i> EXPLORE LEGENDRA <i
+                            class="fa-solid fa-angles-down"></i>
+                    </h1>
+                </a>
+            </div>
+            <br>
+            <br>
+            <div id="video" class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item"
                     src="https://www.youtube.com/embed/Qqwu1QOLJsM?si=H0SdTxKmdzOxhWx2"></iframe>
             </div>
@@ -112,8 +129,12 @@
             <!-------------------------------------------------------------------- --------------------------------------------cards------------------------------------------ -->
             <br>
             <br>
-            <div class="halkabg">
-                <h1 class="glow-def">Keep Exploring LEGENDRA</h1>
+            <div id="cards" class="halkabg">
+                <a href="#cards">
+                    <h1 class="glow-def glow-hover"><i class="fa-solid fa-angles-down"></i> EXPLORE MORE <i
+                            class="fa-solid fa-angles-down"></i>
+                    </h1>
+                </a>
             </div>
             <div class="container-fluid part">
                 <div class="row">
@@ -228,29 +249,37 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
                 <!------------------------------------------------
-    ---------------------------------------------- Models -----------
+    ---------------------------------------------- Models --------------------------------------------
     ------------------------->
-
-                <div class="halkabg">
+                <!-- <div>
                     <model-viewer class="dviewer" src="assets/Rev Darg.glb" camera-controls auto-rotate
                         ar></model-viewer>
-                </div>
-
-
-
-                <!-- -------------------------------------------     -->
+                </div> -->
             </div>
 
     </main>
 
-
     <!-- ------------------------------------------------------------------------------------------------------------ -->
-    <footer>
-
+    <footer style="margin-top: -5px;">
+        <div>
+            <img style="width: 70px;height: 70px;" src="images/thumbnails/favicon png.png" alt="Left Logo" class="logo">
+            <img style="width: 70px;height: 90px;" src="images/thumbnails/bd map.png" alt="Left Logo" class="logo">
+        </div>
+        <div>
+            <p><i class="fa-solid fa-copyright"></i>Team ANIRBAAN 2023</p>
+            <p style="text-align: center;">All Rights Reserved</p>
+        </div>
+        <div>
+            <div class="social-icons">
+                <!-- Social icon links using Font Awesome classes -->
+                <a href="#" class="social-icon-link"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon-link"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
     </footer>
 
     <!-- -------------------------Scripts -------------------------->
