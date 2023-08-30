@@ -156,6 +156,9 @@ a:hover {
     background-color: #00000070;
 }
 
+.card-text {
+    text-align: justify;
+}
 
 
 
@@ -195,6 +198,7 @@ a:hover {
     object-fit: cover;
     /* Maintain the aspect ratio and crop if needed */
 }
+
 
 .image-container:hover img {
     transform: scale(1.1);
