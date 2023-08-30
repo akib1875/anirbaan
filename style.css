@@ -92,6 +92,13 @@ p {
 
 }
 
+.glow-def-heading {
+    text-shadow: 0 0 10px aqua;
+    color: aquamarine;
+    font-size: 32px;
+
+}
+
 .drop-hover:hover {
     background-color: rgba(0, 0, 0, 0.3);
 
@@ -145,6 +152,10 @@ a:hover {
 
 }
 
+.card {
+    background-color: #00000070;
+}
+
 
 
 
@@ -165,7 +176,9 @@ a:hover {
 
 /* AI */
 
-
+.card {
+    margin-bottom: 20px;
+}
 
 .image-container {
     position: relative;
