@@ -181,6 +181,13 @@ a:hover {
     /* Add a glowing effect on hover */
 }
 
+h5 {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.card-text {
+    font-family: 'Rajdhani', sans-serif;
+}
 
 
 
