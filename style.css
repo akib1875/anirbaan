@@ -295,3 +295,20 @@ footer {
     list-style: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.center-audio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.divider {
+    height: 2px;
+    /* Set the height of the line */
+    background-color: aqua;
+    /* Set the line color */
+    margin: 20px 0;
+    /* Adjust margin as needed to control spacing */
+}
