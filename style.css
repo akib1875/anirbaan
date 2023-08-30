@@ -161,10 +161,24 @@ a:hover {
 }
 
 .modelbg {
+    border: 2px solid transparent;
+    /* Start with a transparent border */
+    transition: border-color 0.5s ease;
+    /* Smooth transition for the border-color property */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0);
+    /* Initialize the box-shadow with a transparent glow */
+    padding-top: 10px;
+
+    justify-content: center;
     background-color: #0000007c;
-    margin-bottom: 10px;
+    margin-right: 0px;
+}
 
-
+.modelbg:hover {
+    border-color: rgb(0, 128, 255);
+    /* Change the border color on hover */
+    box-shadow: 0 0 10px rgba(0, 128, 255, 0.7);
+    /* Add a glowing effect on hover */
 }
 
 
@@ -261,4 +275,16 @@ footer {
     /* Remove underline */
     margin-right: 20px;
     /* Spacing between social icons */
+}
+
+.detail-list-item:hover {
+    text-shadow: 0 0 20px aqua;
+    /* Add an aqua text glow on hover */
+    color: aqua;
+
+}
+
+.list-item {
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
