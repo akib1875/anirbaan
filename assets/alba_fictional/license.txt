@@ -1,0 +1,11 @@
+Model Information:
+* title:	Alba (Fictional)
+* source:	https://sketchfab.com/3d-models/alba-fictional-db0633a98bf743388860626a6a79d40c
+* author:	uperesito (https://sketchfab.com/uperesito)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Alba (Fictional)" (https://sketchfab.com/3d-models/alba-fictional-db0633a98bf743388860626a6a79d40c) by uperesito (https://sketchfab.com/uperesito) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
