@@ -52,6 +52,29 @@
     /* opacity: .9; */
 }
 
+.city-background {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-attachment: fixed;
+    /* Add this line to fix the background */
+}
+
+.city-background::before {
+    content: '';
+    background-image: url(images/bg_upscayled/city.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* opacity: .9; */
+}
+
 .main-container {
     position: relative;
     margin-top: 60px;
