@@ -96,7 +96,7 @@ p {
 }
 
 .navbar {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(rgba(128, 128, 128, 0.3), rgba(128, 128, 128, 0.3));
+    background-color: #000000;
     background-blend-mode: multiply;
     /* This blends the two gradients */
 }
@@ -113,9 +113,8 @@ p {
 }
 
 .dropdown-menu {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(rgba(128, 128, 128, 0.3), rgba(128, 128, 128, 0.3));
+    background-color: #000000f5;
     background-blend-mode: multiply;
-
 }
 
 .glow-def {
