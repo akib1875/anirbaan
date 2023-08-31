@@ -134,7 +134,7 @@ p {
 
 .dviewer {
     width: 100%;
-    height: 500px;
+    height: 350px;
 
 }
 
@@ -168,10 +168,10 @@ a:hover {
     box-shadow: 0 0 5px rgba(0, 0, 255, 0);
     /* Initialize the box-shadow with a transparent glow */
     padding-top: 10px;
-
     justify-content: center;
     background-color: #0000007c;
-    margin-right: 0px;
+    margin: 5px;
+    margin-bottom: 25px;
 }
 
 .modelbg:hover {
