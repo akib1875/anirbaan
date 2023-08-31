@@ -194,6 +194,7 @@ a:hover {
 
 .modelbg {
     border: 2px solid transparent;
+    border-radius: 5px;
     transition: border-color 0.5s ease;
     box-shadow: 0 0 5px rgba(0, 0, 255, 0);
     padding-top: 10px;
@@ -239,7 +240,7 @@ h5 {
 .image-container {
     position: relative;
     overflow: hidden;
-    height: 250px;
+    height: 300px;
     /* Set a fixed height for the image container */
 }
 
@@ -319,7 +320,9 @@ footer {
 
 .list-item {
     list-style: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'rajdhani', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .center-audio {
@@ -337,4 +340,35 @@ footer {
     /* Set the line color */
     margin: 20px 0;
     /* Adjust margin as needed to control spacing */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'rajdhani', sans-serif;
+    color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+tr:hover {
+    background-color: black;
+    /* Change background color on hover */
+    transition: background-color 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px aqua;
+    color: aquamarine;
+    /* Add a box shadow on hover */
 }
