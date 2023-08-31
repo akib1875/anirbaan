@@ -29,6 +29,29 @@
     /* opacity: .9; */
 }
 
+.military-background {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-attachment: fixed;
+    /* Add this line to fix the background */
+}
+
+.military-background::before {
+    content: '';
+    background-image: url(images/bg_upscayled/military.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* opacity: .9; */
+}
+
 .main-container {
     position: relative;
     margin-top: 60px;
@@ -90,6 +113,13 @@ h1 {
     color: aqua;
     text-align: center;
     font-size: 24px;
+}
+
+h1:hover {
+    text-shadow: 0 0 20px aqua;
+    /* Add an aqua text glow on hover */
+    color: aqua;
+
 }
 
 h3 {
@@ -181,9 +211,7 @@ p {
     margin-top: 20px;
 }
 
-a:hover {
-    text-decoration: none;
-}
+
 
 .glow-hover:hover {
     transform: scale(1.05);
