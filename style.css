@@ -36,6 +36,37 @@
 }
 
 /* -------------------------------------------------------ashol css------------------- */
+.button {
+    background-color: #008CBA;
+    /* Set the background color of the button */
+    border: none;
+    /* Remove the button border */
+    border-radius: 2px;
+    color: white;
+    /* Set the text color to white */
+    padding: 5px 10px;
+    /* Add some padding to the button */
+    text-align: center;
+    /* Center the text horizontally */
+    text-decoration: none;
+    /* Remove underlines from links */
+    display: inline-block;
+    /* Make the button a block-level element */
+    font-size: 14px;
+    /* Set the font size */
+    margin: 5px 2px;
+    /* Add margin around the button */
+    cursor: pointer;
+    /* Change the cursor to a pointer on hover */
+    font-family: 'Rajdhani',
+        sans-serif;
+}
+
+.button:hover {
+    background-color: grey;
+    /* Change the background color on hover */
+    color: white;
+}
 
 .halkabg {
     background-color: rgba(0, 0, 0, 0.434);
@@ -57,6 +88,7 @@ h3 {
     font-family: 'Orbitron', sans-serif;
     position: relative;
     color: white;
+    font-size: 1.2em;
 }
 
 p {
@@ -162,23 +194,17 @@ a:hover {
 
 .modelbg {
     border: 2px solid transparent;
-    /* Start with a transparent border */
     transition: border-color 0.5s ease;
-    /* Smooth transition for the border-color property */
     box-shadow: 0 0 5px rgba(0, 0, 255, 0);
-    /* Initialize the box-shadow with a transparent glow */
     padding-top: 10px;
     justify-content: center;
     background-color: #0000007c;
-    margin: 5px;
     margin-bottom: 25px;
 }
 
 .modelbg:hover {
     border-color: rgb(0, 128, 255);
-    /* Change the border color on hover */
     box-shadow: 0 0 10px rgba(0, 128, 255, 0.7);
-    /* Add a glowing effect on hover */
 }
 
 h5 {
