@@ -127,7 +127,7 @@ p {
     text-shadow: 0 0 10px aqua;
     color: aquamarine;
     font-size: 32px;
-
+    font-family: 'Orbitron', sans-serif;
 }
 
 .drop-hover:hover {
