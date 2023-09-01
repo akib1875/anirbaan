@@ -52,6 +52,75 @@
     /* opacity: .9; */
 }
 
+.transport-background {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-attachment: fixed;
+    /* Add this line to fix the background */
+}
+
+.transport-background::before {
+    content: '';
+    background-image: url(images/bg_upscayled/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* opacity: .9; */
+}
+
+.energy-background {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-attachment: fixed;
+    /* Add this line to fix the background */
+}
+
+.energy-background::before {
+    content: '';
+    background-image: url(images/bg_upscayled/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* opacity: .9; */
+}
+
+.food-background {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-attachment: fixed;
+    /* Add this line to fix the background */
+}
+
+.food-background::before {
+    content: '';
+    background-image: url(images/bg_upscayled/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* opacity: .9; */
+}
+
 .city-background {
     min-height: 100vh;
     display: flex;
@@ -63,7 +132,7 @@
 
 .city-background::before {
     content: '';
-    background-image: url(images/bg_upscayled/city.png);
+    background-image: url(images/perspectives/City/PhotoReal_Imagine_a_picture_A_cityscape_bathed_in_the_perpetua_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -127,7 +196,7 @@ a:hover {
 }
 
 .halkabg {
-    background-color: rgba(0, 0, 0, 0.434);
+    background-color: rgba(0, 0, 0, 0.85);
     border-radius: 5px;
     margin: 5px;
     padding: 10px;
