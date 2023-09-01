@@ -203,6 +203,14 @@ a:hover {
 
 }
 
+.shadabg {
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+
+}
+
 h1 {
     font-family: 'Orbitron', sans-serif;
     position: relative;
