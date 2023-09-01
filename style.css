@@ -355,7 +355,12 @@ h5 {
     font-family: 'Rajdhani', sans-serif;
 }
 
-
+/* .image-container {
+    max-width: 350px;
+} */
+.box-image {
+    max-width: 400px;
+}
 
 
 
