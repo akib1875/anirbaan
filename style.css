@@ -82,6 +82,10 @@
 }
 
 /* -------------------------------------------------------ashol css------------------- */
+a:hover {
+    text-decoration: none;
+}
+
 .active-glow {
     text-shadow: 0 0 10px aqua;
     color: aquamarine;
@@ -143,6 +147,13 @@ h1:hover {
     /* Add an aqua text glow on hover */
     color: aqua;
 
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: aquamarine;
+    font-size: 22px;
 }
 
 h3 {
@@ -237,6 +248,7 @@ p {
 
 
 .glow-hover:hover {
+
     transform: scale(1.05);
     transition: transform 0.55s ease-in;
 
