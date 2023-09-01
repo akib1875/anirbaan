@@ -284,7 +284,7 @@ p {
 
 .btn:hover {
     transform: scale(1.1);
-    transition: transform 0.75s ease-in;
+    transition: transform 0.35s ease-in-out;
 
 }
 
@@ -319,7 +319,7 @@ p {
 .glow-hover:hover {
 
     transform: scale(1.05);
-    transition: transform 0.55s ease-in;
+    transition: transform 0.35s ease-in-out;
 
 }
 
@@ -396,7 +396,6 @@ h5 {
     object-fit: cover;
     /* Maintain the aspect ratio and crop if needed */
 }
-
 
 .image-container:hover img {
     transform: scale(1.1);
