@@ -325,6 +325,9 @@ p {
 
 
 .glow-hover:hover {
+    text-shadow: 0 0 20px aqua;
+    /* Add an aqua text glow on hover */
+    color: aqua;
 
     transform: scale(1.05);
     transition: transform 0.35s ease-in-out;
@@ -384,6 +387,29 @@ h5 {
 
 
 /* AI */
+#scrollbar2::-webkit-scrollbar {
+    width: 12px;
+}
+
+#scrollbar2::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    box-shadow: inset 0 0 6px white;
+}
+
+#scrollbar2::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #76facc39;
+}
+
+.achievements-scroll {
+    max-height: 120px;
+    /* Adjust the max height as needed */
+    overflow-y: auto;
+    padding-right: 10px;
+    /* Add a little padding for the scrollbar */
+}
 
 .card {
     margin-bottom: 20px;
