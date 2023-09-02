@@ -159,7 +159,8 @@ a:hover {
     text-shadow: 0 0 10px aqua;
     color: aquamarine;
     font-size: 20px;
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 
@@ -185,8 +186,7 @@ a:hover {
     /* Add margin around the button */
     cursor: pointer;
     /* Change the cursor to a pointer on hover */
-    font-family: 'Rajdhani',
-        sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .button:hover {
@@ -212,7 +212,8 @@ a:hover {
 }
 
 h1 {
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Merriweather Sans', sans-serif;
     position: relative;
     color: aqua;
     text-align: center;
@@ -228,13 +229,14 @@ h1:hover {
 
 h2 {
     text-align: center;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: aquamarine;
     font-size: 22px;
 }
 
 h3 {
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Merriweather Sans', sans-serif;
     position: relative;
     color: white;
     font-size: 1.2em;
@@ -258,7 +260,8 @@ p {
 
 .white {
     color: white;
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .dropdown-menu {
@@ -276,7 +279,8 @@ p {
     text-shadow: 0 0 10px aqua;
     color: aquamarine;
     font-size: 32px;
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .drop-hover:hover {
@@ -359,11 +363,13 @@ p {
 }
 
 h5 {
-    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 100;
 }
 
 .card-text {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* .image-container {
@@ -497,7 +503,7 @@ footer {
 
 .list-item {
     list-style: none;
-    font-family: 'rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -522,7 +528,7 @@ footer {
 table {
     width: 100%;
     border-collapse: collapse;
-    font-family: 'rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
