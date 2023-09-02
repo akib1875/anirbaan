@@ -146,13 +146,15 @@
 
 .main-container {
     position: relative;
-    margin-top: 60px;
+    margin-top: 75px;
 
 }
 
 /* -------------------------------------------------------ashol css------------------- */
 a:hover {
     text-decoration: none;
+    text-shadow: 0 0 10px aqua;
+    color: aquamarine;
 }
 
 .active-glow {
@@ -490,8 +492,7 @@ footer {
     /* Icon color */
     text-decoration: none;
     /* Remove underline */
-    margin-right: 20px;
-    /* Spacing between social icons */
+    margin: 2px;
 }
 
 .detail-list-item:hover {
