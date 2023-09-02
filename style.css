@@ -345,7 +345,7 @@ p {
 }
 
 .card-text {
-    text-align: center;
+    text-align: justify;
     font-size: 14px;
 }
 
@@ -403,6 +403,38 @@ h5 {
 
 
 /* AI */
+.card {
+    height: 100%;
+}
+
+.card-body {
+    overflow: hidden;
+    /* Hide the scrollbar by default */
+    max-height: 200px;
+    /* Set a max-height for the scrollable area */
+    transition: overflow 0.35s;
+    /* Add a transition for the overflow property */
+}
+
+/* Customize the scrollbar only when hovering over the card */
+.card:hover .card-body {
+    overflow: auto;
+    /* Enable scroll on hover */
+}
+
+/* Customize the scrollbar */
+.card-body::-webkit-scrollbar {
+    width: 5px;
+    /* Set the width of the scrollbar */
+}
+
+.card-body::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.742);
+    /* Set the color of the scrollbar thumb (handle) */
+    border-radius: 2px;
+    /* Round the corners of the thumb */
+}
+
 #scrollbar2::-webkit-scrollbar {
     width: 12px;
 }
