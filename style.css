@@ -220,12 +220,13 @@ h1 {
     color: aqua;
     text-align: center;
     font-size: 24px;
+    text-shadow: 0 0 20px aqua;
 }
 
 h1:hover {
-    text-shadow: 0 0 20px aqua;
+    text-shadow: 0 0 20px rgb(66, 243, 243);
     /* Add an aqua text glow on hover */
-    color: aqua;
+    color: rgb(45, 244, 231);
 
 }
 
@@ -272,14 +273,14 @@ p {
 }
 
 .glow-def {
-    text-shadow: 0 0 10px aqua;
-    color: aquamarine;
+
+    color: aqua;
 
 }
 
 .glow-def-heading {
-    text-shadow: 0 0 10px aqua;
-    color: aquamarine;
+
+    color: aqua;
     font-size: 32px;
     /* font-family: 'Orbitron', sans-serif; */
     font-family: 'Merriweather Sans', sans-serif;
