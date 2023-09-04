@@ -151,6 +151,11 @@
 }
 
 /* -------------------------------------------------------ashol css------------------- */
+.des-link {
+    color: white;
+    font-size: 8px;
+}
+
 a:hover {
     text-decoration: none;
     text-shadow: 0 0 10px aqua;
