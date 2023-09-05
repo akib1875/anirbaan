@@ -151,6 +151,26 @@
 }
 
 /* -------------------------------------------------------ashol css------------------- */
+@media (min-width: 768px) {
+    .aboutus-image {
+        margin-top: -40px;
+    }
+}
+
+/* Additional styles for mobile phones (if needed) */
+@media (max-width: 767px) {
+    .aboutus-image {
+        /* Reset margin for mobile phones */
+        margin-top: 0;
+    }
+}
+
+
+
+
+
+
+
 .des-link {
     color: white;
     font-size: 8px;
@@ -229,9 +249,9 @@ h1 {
 }
 
 h1:hover {
-    text-shadow: 0 0 20px rgb(66, 243, 243);
+    text-shadow: 0 0 20px aquamarine;
     /* Add an aqua text glow on hover */
-    color: rgb(45, 244, 231);
+    color: aquamarine;
 
 }
 
