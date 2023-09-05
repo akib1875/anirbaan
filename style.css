@@ -159,11 +159,27 @@
 
 /* Additional styles for mobile phones (if needed) */
 @media (max-width: 767px) {
+    .detail-list-item {
+        display: inline-block;
+        width: 280px;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+
+    }
+
     .aboutus-image {
         /* Reset margin for mobile phones */
         margin-top: 0;
     }
+
 }
+
+.detail-list-item {
+    color: white;
+
+}
+
 
 
 
@@ -429,6 +445,19 @@ h5 {
 
 
 /* AI */
+
+
+/* Default styles for links within list items */
+.refer-span {
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+
+
 .card {
     height: 100%;
 }
@@ -570,6 +599,8 @@ footer {
     color: aqua;
 
 }
+
+
 
 .list-item {
     list-style: none;
