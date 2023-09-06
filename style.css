@@ -656,3 +656,63 @@ tr:hover {
     color: aquamarine;
     /* Add a box shadow on hover */
 }
+
+
+
+
+/* Style the comment section */
+#comment-section {
+
+    margin: 0 auto;
+
+}
+
+
+
+/* Style the comment input and name input */
+#name-input,
+#comment-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Glow effect for input placeholders on hover */
+#name-input::placeholder,
+#comment-input::placeholder {
+    transition: aqua 0.35s ease-in-out;
+}
+
+#name-input:hover::placeholder,
+#comment-input:hover::placeholder {
+    color: #3498db;
+    /* Change to your desired color */
+}
+
+/* Style the comments list */
+#comments-list {
+    max-height: 125px;
+    /* Set your desired maximum height for the comments list */
+    overflow-y: auto;
+}
+
+/* Style the submit button */
+#submit-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3498db;
+    /* Change to your desired button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.35s ease-in-out;
+}
+
+#submit-button:hover {
+    background-color: #2980b9;
+    /* Change to your desired hover color */
+}
