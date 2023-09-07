@@ -178,12 +178,17 @@
 .detail-list-item {
     color: white;
 
+
 }
 
 
 
 
-
+.planet-alert {
+    background-color: #0000009c;
+    color: white;
+    margin: 0;
+}
 
 
 
@@ -336,13 +341,10 @@ p {
     text-decoration: none;
     border: solid aqua 2px;
     border-radius: 5px;
+    padding: 1;
 }
 
-.btn:hover {
-    transform: scale(1.1);
-    transition: transform 0.35s ease-in-out;
 
-}
 
 @keyframes rotate3d {
     0% {
@@ -715,4 +717,22 @@ tr:hover {
 #submit-button:hover {
     background-color: #2980b9;
     /* Change to your desired hover color */
+}
+
+
+
+.custom-alert {
+    color: white;
+}
+
+.custom-alert .btn-close {
+    color: white;
+}
+
+.alert {
+    max-width: 400px;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
 }
