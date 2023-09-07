@@ -29,6 +29,7 @@
 </head>
 
 <body>
+
     <header>
         <nav class="navbar fixed-top navbar-expand-lg  ">
             <div class="container-fluid">
@@ -117,14 +118,18 @@
     </header>
     <!-- ------------------------------------------------------------------------------------------ -->
     <main class="background">
-        <div class="main-container container-sm">
+        <section class="main-container container-sm">
 
-            <div class="halkabg">
+            <div id="hover-section" class="halkabg">
                 <a href="#video">
                     <h1 class="glow-def-heading glow-hover">Project: Celestial Odyssey</h1>
                     <h2 class="glow-hover glow-def">Unveiling Exoplanets</h2>
                 </a>
             </div>
+            <audio id="myAudio" volume="0.15">
+                <source src="audio/Celestial_bg.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
             <br>
             <!---------------------------------------------------------- planet --------------- -->
             <div>
@@ -134,7 +139,8 @@
             <br>
             <br>
             <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                <strong>Please wait!</strong> 3D Models might take longer to load depending on devices
+                <strong>Scroll/Zoom to roam around Legendra</strong> 3D Models might take longer to load depending on
+                devices
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
 
@@ -151,7 +157,7 @@
             </div>
             <div id="video" class="embed-responsive embed-responsive-16by9">
                 <iframe id="youtube-video" class="embed-responsive-item"
-                    src="https://www.youtube.com/embed/EMLt8iqMl7Y?si=3rCwmo9geuOzq2Eq" allowfullscreen></iframe>
+                    src="https://www.youtube.com/embed/Re3jwNS6pPA?si=qQtlPx7RqnLe3KyF" allowfullscreen></iframe>
 
 
             </div>
@@ -341,7 +347,7 @@
                     </div>
                 </div>
 
-            </div>
+        </section>
 
     </main>
 
@@ -375,6 +381,7 @@
         </div>
     </footer>
 
+
     <!-- -------------------------Scripts -------------------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -382,7 +389,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="your-jquery-library.js"></script>
+    <script src="your-bootstrap-library.js"></script>
+    <script src="your-other-scripts.js"></script>
+    <script>document.addEventListener("DOMContentLoaded", function () {
+            var audio = document.getElementById("myAudio");
+            var hoverSection = document.getElementById("hover-section");
 
+            // Add a hover event listener to the section
+            hoverSection.addEventListener("mouseenter", function () {
+                audio.play(); // Play the audio when the section is hovered
+            });
+
+            // Add a mouseout event listener to pause the audio when the user moves the mouse away
+            hoverSection.addEventListener("mouseout", function () {
+                audio.pause();
+                audio.currentTime = 0; // Reset audio to the beginning
+            });
+        }); </script>
+
+
+
+
+    <script src="comment_box.js"></script>
 
     <!-- ---------------------------------audio controls ----------------------------->
 
