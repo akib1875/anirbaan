@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celestial Odyssey</title>
+    <title>Exoplanets</title>
 
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
 
@@ -33,7 +33,7 @@
             <div class="container-fluid">
                 <a href="index.html"><img class="logotransform" src="images/favicon png.png" alt="" width="60"
                         height="60" class="d-inline-block align-text-top"></a>
-                <a class="navbar-brand active-glow" href="#"> Project</a>
+                <a class="navbar-brand active-glow" href="#"> Exoplanets</a>
 
                 <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -118,6 +118,47 @@
 
     <main class="background">
         <div class="main-container container-sm">
+            <!---------------------------------------------- Model viewer Section  --------------------------------------->
+
+            <section class="container">
+                <h1 class="glow-def-heading halkabg">3D Models of Exoplanets</h1>
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 col-sm-12 modelbg">
+                        <h1 class="glow-def">Kepler 22b</h1>
+                        <model-viewer class="dviewer" src="assets/kepler_22_b/kepler22b.gltf" camera-controls
+                            auto-rotate ar></model-viewer>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-12 modelbg ">
+                        <h1 class="glow-def">Kepler 452b</h1>
+                        <model-viewer class="dviewer" src="assets/kepler-452b/scene.gltf" camera-controls auto-rotate
+                            ar></model-viewer>
+                    </div>
+                    <div class="col-lg-4 col-sm-12  modelbg">
+                        <h1 class="glow-def">Kepler 10b</h1>
+                        <model-viewer class="dviewer" src="assets/kepler_10_b/scene.gltf" camera-controls auto-rotate
+                            ar></model-viewer>
+                    </div>
+                    <div class="col-lg-4  col-sm-12 modelbg ">
+                        <h1 class="glow-def">Fictonal Planet A</h1>
+                        <model-viewer class="dviewer" src="assets/alien_planet/scene.gltf" camera-controls auto-rotate
+                            ar></model-viewer>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 modelbg ">
+                        <h1 class="glow-def">Fictional Planet B</h1>
+                        <model-viewer class="dviewer" src="assets/alba_fictional/scene.gltf" camera-controls auto-rotate
+                            ar></model-viewer>
+                    </div>
+                    <div class="col-lg-4  col-sm-12 modelbg ">
+                        <h1 class="glow-def">55 Cancri e</h1>
+                        <model-viewer class="dviewer" src="assets/55_cancri_e637/scene.gltf" camera-controls auto-rotate
+                            ar></model-viewer>
+                    </div>
+
+                </div>
+
+            </section>
+            <div class="divider"></div>
 
 
             <!-- Exoplanet cards section -->
@@ -365,47 +406,7 @@
 
 
 
-            <!---------------------------------------------- Model viewer Section  --------------------------------------->
 
-            <section class="container">
-                <h1 class="glow-def-heading halkabg">3D Models of Exoplanets</h1>
-                <div class="row justify-content-between">
-                    <div class="col-lg-4 col-sm-12 modelbg">
-                        <h1 class="glow-def">Kepler 22b</h1>
-                        <model-viewer class="dviewer" src="assets/kepler_22_b/kepler22b.gltf" camera-controls
-                            auto-rotate ar></model-viewer>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-12 modelbg ">
-                        <h1 class="glow-def">Kepler 452b</h1>
-                        <model-viewer class="dviewer" src="assets/kepler-452b/scene.gltf" camera-controls auto-rotate
-                            ar></model-viewer>
-                    </div>
-                    <div class="col-lg-4 col-sm-12  modelbg">
-                        <h1 class="glow-def">Kepler 10b</h1>
-                        <model-viewer class="dviewer" src="assets/kepler_10_b/scene.gltf" camera-controls auto-rotate
-                            ar></model-viewer>
-                    </div>
-                    <div class="col-lg-4  col-sm-12 modelbg ">
-                        <h1 class="glow-def">Fictonal Planet A</h1>
-                        <model-viewer class="dviewer" src="assets/alien_planet/scene.gltf" camera-controls auto-rotate
-                            ar></model-viewer>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 modelbg ">
-                        <h1 class="glow-def">Fictional Planet B</h1>
-                        <model-viewer class="dviewer" src="assets/alba_fictional/scene.gltf" camera-controls auto-rotate
-                            ar></model-viewer>
-                    </div>
-                    <div class="col-lg-4  col-sm-12 modelbg ">
-                        <h1 class="glow-def">55 Cancri e</h1>
-                        <model-viewer class="dviewer" src="assets/55_cancri_e637/scene.gltf" camera-controls auto-rotate
-                            ar></model-viewer>
-                    </div>
-
-                </div>
-
-            </section>
-            <div class="divider"></div>
 
             <!----------------------------------------- more about planets section  -------------------------->
             <section class="container">
@@ -454,47 +455,6 @@
             <div class="divider"></div>
 
 
-            <!-- community involvement  -->
-
-
-            <section style="overflow-x: auto;" class="container">
-                <h1 class="glow-def-heading glow-hover">Community Involvement</h1>
-                <div class="shadabg">
-                    <div class="row ">
-                        <div class="col-sm-12 col-lg-6 mb-2"> <iframe
-                                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02qq2hTMATfe5czTZ1bErGGYqWk7LsYNSXssDeVsCmiGGouBXNZgAwLsqHj6BY4FcNl%26id%3D61550818981643&show_text=true&width=500"
-                                width="100%" height="550" style="border:none;overflow:hidden; color:white; "
-                                scrolling="yes" frameborder="0" allowfullscreen="true"
-                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        </div>
-                        <div class="col-sm-12 col-lg-6 "> <iframe
-                                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0ccp5jRCjpMJeChr2ehTSx98yvs2HjW6viqfZunm9B7VgxCewqgwyayg3MmibQjaql%26id%3D61550818981643&show_text=true&width=500"
-                                width="100%" height="550" style="border:none;overflow:hidden" scrolling="no"
-                                frameborder="0" allowfullscreen="true"
-                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        </div>
-
-
-                    </div>
-                    <div class="row ">
-                        <div class="col-sm-12 col-lg-6 mb-2"> <iframe
-                                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02URy2hTzhWiJd5hirDqWHHmkWyqdeyg51DdBKqNpowRirspVCAJAChCH26L9ShxKZl%26id%3D61550818981643&show_text=true&width=500"
-                                width="100%" height="550" style="border:none;overflow:hidden" scrolling="no"
-                                frameborder="0" allowfullscreen="true"
-                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        </div>
-                        <div class="col-sm-12 col-lg-6 "> <iframe
-                                src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0MYogtQcoS8qy2Fu8eDmhuU1o8mVA1XojG3NMNEbeybvkGseRP9HknivtKRH1dqukl%26id%3D61550818981643&show_text=true&width=500"
-                                width="100%" height="550" style="border:none;overflow:hidden" scrolling="no"
-                                frameborder="0" allowfullscreen="true"
-                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                        </div>
-
-
-                    </div>
-                </div>
-            </section>
-            <div class="divider"></div>
 
 
 
