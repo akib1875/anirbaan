@@ -445,6 +445,19 @@ h5 {
 
 }
 
+@media (max-width: 767px) {
+    .optional-slider {
+        display: none;
+    }
+
+    .legendra-model {
+        width: 290px;
+        height: 290px;
+        align-items: center;
+
+    }
+}
+
 
 
 
