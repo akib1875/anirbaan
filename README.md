@@ -1,4 +1,4 @@
 Live Link: https://celestial-odyssey.netlify.app/
 
-Summary
+Summary:
 We fabricated a web-verse “Celestial Odyssey” where you can embark on a breathtaking digital journey, soaring through the cosmic waves to explore the wonders of LEGENDRA (Our fictional planet). We utilized publicly accessible information from NASA’s space observatories and publicly available information to visualize details about the LEGENDRA's surface, atmosphere, size and other attributes and then envisioned the inhabitants of Legendra, their food sources, transportation methods, energy generation, defense and military strategies, legal systems, education, arts, culture, and economy etc. We incorporated these imaginative elements into our website to provide visitors with an overview of Legendra to inspire their curiosity, spark imagination and inspire their curiosity around NASA’s next flagship space telescope, the Habitable Worlds Observatory (HWO), aims to find habitable planets outside our solar system.
