@@ -204,7 +204,7 @@ a:hover {
 }
 
 .active-glow {
-    text-shadow: 0 0 10px aqua;
+    text-shadow: 0 0 5px aqua;
     color: aquamarine;
     font-size: 20px;
     /* font-family: 'Orbitron', sans-serif; */
@@ -266,11 +266,11 @@ h1 {
     color: aqua;
     text-align: center;
     font-size: 24px;
-    text-shadow: 0 0 20px aqua;
+    text-shadow: 0 0 5px aqua;
 }
 
 h1:hover {
-    text-shadow: 0 0 20px aquamarine;
+    text-shadow: 0 0 5px aquamarine;
     /* Add an aqua text glow on hover */
     color: aquamarine;
 
@@ -302,7 +302,7 @@ p {
 }
 
 .white:hover {
-    text-shadow: 0 0 20px aqua;
+    text-shadow: 0 0 5px aqua;
     /* Add an aqua text glow on hover */
     color: aqua;
 }
@@ -375,7 +375,7 @@ p {
 
 
 .glow-hover:hover {
-    text-shadow: 0 0 20px aqua;
+    text-shadow: 0 0 10px aqua;
     /* Add an aqua text glow on hover */
     color: aqua;
 
@@ -621,7 +621,7 @@ footer {
 }
 
 .detail-list-item:hover {
-    text-shadow: 0 0 20px aqua;
+    text-shadow: 0 0 5px aqua;
     /* Add an aqua text glow on hover */
     color: aqua;
 
@@ -770,4 +770,20 @@ tr:hover {
     100% {
         text-shadow: 0 0 20px #00f;
     }
+}
+
+
+.overlay-button {
+    position: absolute;
+    top: 57%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #000000ac;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 2;
+    /* Ensure the button is above the image */
 }
