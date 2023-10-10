@@ -1,0 +1,12 @@
+/* styles.css */
+.question {
+    margin-bottom: 20px;
+}
+
+.hint {
+    display: none;
+}
+
+.correct {
+    color: green;
+}
